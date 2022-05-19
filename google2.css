@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.logo {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 140px 0;
+}
+
+input {
+    width: 400px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) no-repeat,
+    url(../img/search.svg) no-repeat;
+    background-size: 23px ,20px;
+    background-position: right 15px center ,left 15px center;
+}
+
+input:focus {
+    box-shadow: 2px 3px 4px 2px #ccc;
+    outline: none;
+}
+
+.search {
+    padding-top: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    color: #3c4043;
+    border-radius: 4px;
+    background-color:#f8f9fa;
+    margin-right: 10px;
+}
+.btn:hover{
+    box-shadow: 0px 0px 1px 1px #ccc;
+}
+.container{
+    margin-top: 30px;
+}
+ol.languages{
+    list-style: none;
+    margin:40px;
+}
+ol.languages li{
+    font-size: 13px;
+    display:inline;
+    padding-right: 5px;
+}
+ol.languages li>a{
+    text-decoration: none;
+}
+ol.languages li >a:hover{
+  text-decoration: underline;
+}
+.space{
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    padding: 15px 10px;
+    font-size: 14px;
+    color: #70757a;
+    border-top: 1px solid #dadce0;
+    background-color: #f2f2f2;
+}
+ .foot{
+   width:100%;
+   list-style: none;
+   position: fixed;
+   color: #70757a;
+   font-size: 15px;
+   bottom: 5%;
+   background-color: #f2f2f2;
+   padding: 20px  30px;
+   
+}
+.space{
+    display:flex;
+    justify-content: space-between;
+}
+.footer>div{
+    padding-left: 25px;
+}
+.content>div{
+    padding-right: 35px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space div>a{
+    text-decoration: none;
+    color: #70757a;
+   
+}
+.space div>a:hover{
+    text-decoration: underline;
+}
